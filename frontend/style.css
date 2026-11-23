@@ -1,0 +1,7 @@
+:root { --hms: #0f5c63; }
+body { background: #f2f6f6; }
+.bg-hms { background: var(--hms); }
+.btn-primary { --bs-btn-bg: var(--hms); --bs-btn-border-color: var(--hms); --bs-btn-hover-bg: #0b464b; --bs-btn-hover-border-color: #0b464b; }
+.nav-tabs .nav-link { color: #44595c; }
+.nav-tabs .nav-link.active { color: var(--hms); font-weight: 600; }
+thead { background: #e3eded; }
